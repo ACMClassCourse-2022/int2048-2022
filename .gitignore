@@ -1,0 +1,9 @@
+/**/.DS_Store
+/**/.vscode
+
+/src
+/**/src.hpp
+note.md
+/**/*.py
+/**/__pycache__
+/**/*.ans
