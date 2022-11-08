@@ -60,3 +60,8 @@ PS：Bonus 部分对代码性能也有要求，需要通过对应的测试数据
 PS：所有测试点保证被除数与除数均为正数（避免向零取整或向下取整问题）。
 
 **所有测试点时限均设置为 std 耗时的 2.5 倍以上。**
+
+### 参考资料
+
+[OI Wiki](https://oi-wiki.org)
+[分治除法以及相关算法](https://baobaobear.github.io/post/20210320-bigint3/)
