@@ -1,11 +1,11 @@
 /*
-Time: 2021-10-21
-Test: mul & div
-std Time: 0.01s
+Time: 2021-10-20
+Test: add & minus (signed)
+std Time: 0.14s
 Time Limit: 1.00s
 */
 
-#include "int2048.hpp"
+#include "int2048.h"
 
 sjtu::int2048 a;
 std::string s;
@@ -14,16 +14,13 @@ int main()
 {
     int n;
     std::cin >> n;
-    a = 1;
     for (int i = 1; i <= n; i++)
     {
-        int ty = 0;
-        std::cin >> ty >> s;
-        
-        if (ty)
-            a /= s;
+        std::cin >> s;
+        if (i & 1)
+            a += s;
         else
-            a *= s;
+            a -= s;
         
         std::cout << a << '\n';
     }

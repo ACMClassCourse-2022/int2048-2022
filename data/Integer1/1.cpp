@@ -5,17 +5,16 @@ std Time: 0.00s
 Time Limit: 1.00s
 */
 
-#include "int2048.hpp"
+#include "int2048.h"
 
 int main()
 {
     sjtu::int2048 a;
     a.print(); puts("");
 
-    sjtu::int2048 b(1145141919810ll);
+    sjtu::int2048 b((long long)1145141919810);
     b.print(); puts("");
-    b = sjtu::int2048(-1145141919810ll);
-    b.print(); puts("");
+    sjtu::int2048((long long)-1145141919810).print(); puts("");
 
     sjtu::int2048 c("-2333333333333333333333333333333333333333333333333333333");
     c.print(); puts("");

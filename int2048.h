@@ -68,12 +68,12 @@ public:
   friend std::istream &operator>>(std::istream &, int2048 &);
   friend std::ostream &operator<<(std::ostream &, const int2048 &);
 
-  inline friend bool operator==(const int2048 &, const int2048 &);
-  inline friend bool operator!=(const int2048 &, const int2048 &);
-  inline friend bool operator<(const int2048 &, const int2048 &);
-  inline friend bool operator>(const int2048 &, const int2048 &);
-  inline friend bool operator<=(const int2048 &, const int2048 &);
-  inline friend bool operator>=(const int2048 &, const int2048 &);
+  friend bool operator==(const int2048 &, const int2048 &);
+  friend bool operator!=(const int2048 &, const int2048 &);
+  friend bool operator<(const int2048 &, const int2048 &);
+  friend bool operator>(const int2048 &, const int2048 &);
+  friend bool operator<=(const int2048 &, const int2048 &);
+  friend bool operator>=(const int2048 &, const int2048 &);
 };
 } // namespace sjtu
 

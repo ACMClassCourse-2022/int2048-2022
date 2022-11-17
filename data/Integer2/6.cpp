@@ -5,7 +5,7 @@ std Time: 0.01s
 Time Limit: 1.00s
 */
 
-#include "int2048.hpp"
+#include "int2048.h"
 
 sjtu::int2048 f[2000], g[2000], h[2000];
 
